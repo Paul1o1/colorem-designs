@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Axtra HTML5 Template">
 
-  <title>Portfolio Details - Colorem</title>
+  <title>Contact - Axtra</title>
 
   <!-- Fav Icon -->
   <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
@@ -29,11 +29,9 @@
 
 
 <body>
-
   <!-- Cursor Animation -->
   <div class="cursor1"></div>
   <div class="cursor2"></div>
-
 
 
   <!-- Preloader -->
@@ -52,7 +50,48 @@
 
 
 
- 
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Cursor</h2>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">mode</h2>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="light">light</button>
+          <button data-mode="dark">dark</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Language Support</h2>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
 
 
 
@@ -64,8 +103,8 @@
   <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
 
 
-  <!-- Header area start -->
-  <header class="header__area-7" style="background-color: white;">
+   <!-- Header area start -->
+   <header class="header__area-7">
     <div class="header__inner-2">
       <div class="header__logo-2">
         <a href="index.html" class="logo-dark"><img src="assets/imgs/logo/colorem-dark.png" alt="Site Logo"></a>
@@ -73,26 +112,28 @@
       </div>
       <div class="header__nav-2">
         <ul class="main-menu-4 menu-anim">
-          <li class="has-megamenu"><a href="index.html">home</a>
+          <li class="has-megamenu"><a href="index-3.html">home</a>
            
           </li>
           <li><a href="portfolio-5.html">Portfolio</a>
            
-             
-        
-          <li class="has-megamenu"><a href="about.html">About</a>
-          
           </li>
-          <li><a href="service-2.html">services</a>
+          <li class="has-megamenu"><a href="about.html">About</a>
+           
+          </li>
+          <li><a href="portfolio.html">Service</a>
            
           </li>
           <li><a href="team.html">team</a>
-          
+           
           </li>
-          
+         
+          <li><a href="blog.html">Blog</a>
+           
+          </li>
         </li>
-        <li><a href="contact.html">Contact</a>
-          
+        <li><a href="team.html">Contact</a>
+        
         </li>
         </ul>
       </div>
@@ -110,7 +151,7 @@
     <div class="offcanvas__body">
       <div class="offcanvas__left">
         <div class="offcanvas__logo">
-          <a href="index-3.html"><img src="assets/imgs/logo/offcanvas-logo.png" alt="Offcanvas Logo"></a>
+          <a href="index.html"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo"></a>
         </div>
         <div class="offcanvas__social">
           <h3 class="social-title">Follow Us</h3>
@@ -123,49 +164,58 @@
             <li><a href="index-7-dark.html#">YouTube</a></li>
           </ul>
         </div>
-        <!-- <div class="offcanvas__links">
+        <div class="offcanvas__links">
           <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">contact</a></li>
             <li><a href="career.html">Career</a></li>
             <li><a href="blog.html">blog</a></li>
           </ul>
-        </div> -->
+        </div>
       </div>
       <div class="offcanvas__mid">
         <div class="offcanvas__menu-wrapper">
           <nav class="offcanvas__menu">
             <ul class="menu-anim">
-              <li><a href="index-3.html">home</a>
-             
-              </li>
-              <li>
-                <a href="portfolio-5.html">Portfolio</a>
-             
-              </li>
-              <li>
-                <a href="about.html">About</a>
-                
-              </li>
-              <li><a href="service-2.html">Service</a>
+              <li><a href="index-3.html" >home</a>
                
               </li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="contact.html">contact</a></li>
+              <li>
+                <a>Portfolio</a>
+             
+              </li>
+              <li>
+                <a>About</a>
+               
+              </li>
+              <li><a>Service</a>
+              
+              </li>
+              <li><a>Team</a>
+               
+              </li>
+            </li>
+            <li><a>Contact</a>
+             
+            </li>
+              <li><a href="contact.html">blog</a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div class="offcanvas__right">
         <div class="offcanvas__search">
-         
+          <form action="index-7-dark.html#">
+            <input type="text" name="search" placeholder="Search keyword">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
         </div>
         <div class="offcanvas__contact">
           <h3>Get in touch</h3>
           <ul>
-            <li><a href="tel:02094980547">+251 913 180 112 </a></li>
-            <li><a href="mailto:info@extradesign.com">info@Coloremdesigns</a></li>
-            <li>Dembel, Addis Ababa,Ethiopia</li>
+            <li><a href="tel:02094980547">+(02) - 094 980 547</a></li>
+            <li><a href="mailto:info@extradesign.com">info@extradesign.com</a></li>
+            <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
           </ul>
         </div>
         <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1">
@@ -179,138 +229,83 @@
   <!-- Offcanvas area end -->
 
 
-
-
-
   <div id="smooth-wrapper">
     <div id="smooth-content">
       <main>
 
-        <!-- Portfolio area start -->
-        <section class="portfolio__detail">
-          <div class="portfolio__detail-top">
-            <div class="container g-0 line pt-110 pb-130">
-              <span class="line-3"></span>
-
-              <div class="row">
-                <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-7">
-                  <div class="sec-title-wrapper">
-                    <h2 class="sec-title animation__char_come">SIMPLY   <br>BLACK</h2>
-                  </div>
+        <!-- Contact area start -->
+        <section class="contact__area-6" >
+          <div class="container g-0 line pt-120 pb-110"  style="margin-top: 150px;">
+            <span class="line-3"></span>
+            <div class="row">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="sec-title-wrapper">
+                  <h2 class="sec-title-2 animation__char_come">Let’s get in touch</h2>
                 </div>
-
-                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-5">
-                  <div class="portfolio__detail-info">
-                    <ul>
-                      <li>Category <a href="category.html">Documentary</a></li>
-                      <li>Client <span>ETHIOPEAN ROAD AUTORITY</span></li>
-                      <li>Start Date <span>23 January 2023</span></li>
-                      <li>Handover <span>05 March 2023</span></li>
-                    </ul>
-                  </div>
+              </div>
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="contact__text">
+                  <p>Great! We're excited to hear from you and let's start
+                    something special togerter. call us for any inquery.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row contact__btm">
+              <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                <div class="contact__info">
+                  <h3 class="sub-title-anim-top animation__word_come">Don't be afraid man ! <br>say hello</h3>
+                  <ul>
+                    <li><a href="tel:+251 913 180 112 ">+251 913 180 112 </a></li>
+                    <li><a href="mailto:hello@example.com">info@colorem.com</a></li>
+                    <li><span>Dembel st, Addis Ababa <br> Ethiopia(Et)</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                <div class="contact__form">
+                  <form action="https://wealcoder.com/dev/html/axtra/assets/mail.php" method="POST">
+                    <div class="row g-3">
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="text" name="name" placeholder="Name *">
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="email" name="email" placeholder="Email *">
+                      </div>
+                    </div>
+                    <div class="row g-3">
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="tel" name="phone" placeholder="Phone">
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="text" name="subject" placeholder="Subject *">
+                      </div>
+                    </div>
+                    <div class="row g-3">
+                      <div class="col-12">
+                        <textarea name="message" placeholder="Messages *"></textarea>
+                      </div>
+                    </div>
+                    <div class="row g-3">
+                      <div class="col-12">
+                        <div class="btn_wrapper">
+                          <button class="wc-btn-primary btn-hover btn-item"><span></span> Send <br>Messages <i
+                              class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="portfolio__detail-thumb">
-            <img src="assets/imgs/portfolio/work/9/1.png" alt="Portfolio Thumbnail" data-speed="auto">
-          </div>
-
-          <div class="portfolio__detail-content">
-            <div class="container g-0 line pt-140">
-              <span class="line-3"></span>
-
-              <div class="block-content">
-                <div class="row">
-                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                    <h2 class="portfolio__detail-title title-anim">SERVES AN EDUCATIONAL PURPOSE, ADVOCATING FOR ROAD SAFETY AND RESPONSIBLE DRIVING PRACTICES.</h2>
-                  </div>
-
-                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                    <div class="portfolio__detail-text">
-                      <p>COLOREM TOOK UP ON A PROJECT CALLED 'WRONG SIDE OF THE ROAD,
-                        ' AN INTERVIEW SERIES CONTRACTED BY SIMPLY BLACK MEDIA FOR THE 
-                        ETHIOPIAN ROAD AUTHORITY. THIS WORK FOCUSED ON THE SOBERING EXPERIENCES 
-                        OF INDIVIDUALS WHO DROVE UNDER THE INFLUENCE AND SUBSEQUENTLY CAUSED ACCIDENTS.
-                         PROUDLY, AS COLOREM, WE PRODUCED THREE POWERFUL INTERVIEW VIDEOS, FOCUSING 
-                         ON THE CONSEQUENCES OF DRUNK DRIVING. THE SERIES NOT ONLY SHEDS LIGHT
-                          ON THE PERSONAL AFTERMATH OF SUCH INCIDENTS BUT ALSO SERVES AN EDUCATIONAL
-                           PURPOSE, ADVOCATING FOR ROAD SAFETY AND RESPONSIBLE DRIVING PRACTICES.</p>
-
-                      <ul>
-                        <li>+ Documantary </li>
-                        <li>+ Directing</li>
-                        
-                        <li>+ Photography</li>
-                        <li>+ Cinimatography</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="block-thumb">
-                <img src="assets/imgs/portfolio/work/9/2.png" alt="Portfolio Image" data-speed="0.5">
-              </div>
-
-              <div class="block-content  pt-140">
-                <div class="row">
-                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                    <h2 class="portfolio__detail-title title-anim">Visual and  Photography
-                      </h2>
-                  </div>
-
-                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                    <div class="portfolio__detail-text">
-                      <p>we bring the magic to life, editing with precision, enhancing colors, 
-                        and fine-tuning the audio to create a seamless and impactful experience. 
-                        Collaboration and feedback guide the way, ensuring the final product is a masterful
-                         creation that captivates audiences and leaves a lasting impression. 
-                      </p>
-
-                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="block-gallery">
-                <img src="assets/imgs/portfolio/work/9/3.png" alt="Portfolio Image">
-                <img src="assets/imgs/portfolio/work/9/4.png" alt="Portfolio Image">
-              </div>
-
-              <div class="block-thumb">
-                <img src="assets/imgs/portfolio/work/9/1.png" alt="Portfolio Image" data-speed="0.5">
-              </div>
-
-              <div class="block-img-text">
-                <img src="assets/imgs/portfolio/work/9/2.png" alt="Portfolio Image">
-                <img src="assets/imgs/portfolio/work/9/3.png" alt="Portfolio Image">
-                <p>our Branding says a lot about you as a business and it’s important to choose a style 
-                  that reflects the values and the personality that mirrors what you’re trying to say. </p>
-              </div>
-
-              <div class="row">
-                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
-                  <div class="portfolio__detail-btns pt-150 pb-150">
-                    <a href="portfolio-details.html" class="wc-btn-primary btn-hover"><span></span> Prev Work</a>
-                    <a href="portfolio-details.html" class="wc-btn-primary btn-hover"><span></span> Next Work</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </section>
-        <!-- Portfolio area end -->
+        <!-- Contact area end -->
 
       </main>
 
 
-
-       <!-- Footer area start -->
-       <footer class="footer__area">
+      <!-- Footer area start -->
+      <footer class="footer__area">
         <div class="footer__top">
           <div class="container footer-line"></div>
           <!-- <img src="assets/imgs/footer/footer.png" alt="Footer Image" data-speed="0.5"> -->
